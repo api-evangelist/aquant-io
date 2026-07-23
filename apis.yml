@@ -1,8 +1,19 @@
 aid: aquant-io
-name: Aquant Io
-description: Aquant Io is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+name: Aquant
+description: >-
+  Aquant is an agentic AI platform purpose-built for servicing complex equipment,
+  used by manufacturers and service organizations across industrial equipment, medical
+  devices, food equipment, high-tech and electronics, printing, and energy. The platform
+  lets teams deploy specialized service AI agents through Agent Studio and a prebuilt
+  Agent Library, and adds Voice AI (Roger) and Vision AI so field technicians, call-center
+  agents, customer self-service, and service leaders get expert-level guidance across the
+  full service lifecycle from diagnosis to resolution. Aquant integrates with existing CRM
+  and field-service systems and continuously learns from an organization's institutional
+  service knowledge to drive service revenue, scale service teams, accelerate onboarding,
+  and increase remote resolution rates. Aquant is a portfolio company of Lightspeed Venture
+  Partners. It does not publish a public developer portal or OpenAPI-described API; platform
+  API access is delivered to enterprise customers, so this profile captures the company's
+  identity, security/compliance posture, and public web properties.
 url: https://raw.githubusercontent.com/api-evangelist/aquant-io/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +21,65 @@ x-backed-by:
 - lightspeed-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+image: https://cdn.prod.website-files.com/687529371c5de2d8428c0a4d/6877cd3487c351b4d9032d3b_logo-aquant-light.svg
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Agentic AI
+- Field Service
+- Service Intelligence
+- Complex Equipment
+- Manufacturing
+- Medical Devices
+- Voice AI
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+common:
+- type: Website
+  url: https://www.aquant.ai/
+- type: About
+  url: https://www.aquant.ai/company/about-us
+- type: Blog
+  url: https://www.aquant.ai/resources/blog
+- type: Documentation
+  url: https://docs.aquant.ai/
+- type: Compliance
+  url: https://security.aquant.ai/
+- type: TermsOfService
+  url: https://www.aquant.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.aquant.ai/privacy-policy
+- type: SignUp
+  url: https://discover.aquant.ai/book-meeting
+- type: GitHubOrganization
+  url: https://github.com/Aquant-io
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aquant.io/
+- type: DomainSecurity
+  url: security/aquant-io-domain-security.yml
+- type: TrustCenter
+  url: security/aquant-io-trust-center.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
